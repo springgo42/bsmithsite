@@ -32,7 +32,6 @@ flex-wrap: wrap;
 }
 
 .menu ul li {
-    display: inline-block;
     margin: 0 4px;
 }
 
@@ -54,6 +53,10 @@ nav a {
     color: #038c26;
 
   }
+#don {
+  
+}
+
 .chooselang {
   display: flex;
   font-size: 1.2em;
@@ -61,7 +64,6 @@ nav a {
 }
 .chooselang ul {
 display: flex;
-
 flex-wrap: nowrap;
   list-style-type: none;
   margin-right: 3px;
@@ -107,7 +109,7 @@ text-align: center;
   margin-top: 0;
   padding-bottom: 0;
 padding-top: 20%;
-  background: url(images/vocationaltraining.jpg) no-repeat;
+  background: url(images/index_vocationaltraining.jpg) no-repeat;
   background-size: cover;
   height: 300px;
   margin-bottom: 3%;
@@ -349,7 +351,10 @@ padding-top: 50px;
 .normaltext a:hover {
   font-weight:bolder;
 }
-
+th, td {
+  border-bottom: 1px solid black;
+  padding: 2px 12px;
+}
 /*end left-column association page*/
 
 /*right column association page*/
@@ -366,12 +371,6 @@ padding-top: 50px;
 
 /*end right column association page*/
 
-th, td {
-  border-bottom: 1px solid black;
-  padding: 2px 12px;
-}
-/*end of left column association page*/
-
 /*main association page*/
 main {
 display:inline;
@@ -385,7 +384,7 @@ display:inline;
   margin-top: 0;
   padding-bottom: 0;
   padding-top: 20%;
-  background: url(images/cultural_activities.jpg) no-repeat;
+  background: url(images/maisonshalom_culturalactivities.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 3%;
   display: flex;
@@ -399,5 +398,52 @@ display:inline;
 
 /*END OF MAISON SHALOM PAGE*/
 
-/*MAISON CONTACT PAGE*/
+/* CONTACT PAGE*/
+.banner_contactpage {
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 20%;
+  padding-left: 5%;
+  background: url(images/suisse.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.banner_contactpage h1 {
+  color: white;
+  font-size: 3em;
+  padding-bottom: 2em;
+}
+
+
 /*END OF CONTACT PAGE*/
+
+
+/* DONATION PAGE*/
+.banner_aiderpage {
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 20%;
+  padding-left: 5%;
+  background: url(images/suisse.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.banner_aiderpage h1 {
+  color: white;
+  font-size: 3em;
+  padding-bottom: 2em;
+}
+
+
+
+/*END OF DONATION PAGE*/
