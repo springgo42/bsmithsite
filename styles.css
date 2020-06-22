@@ -18,10 +18,10 @@ justify-content: space-between;
 }
 
 .logo {
-width: 30%;
+width: 300px;
 height: auto;
 }
-
+/*ATTEMPT 1 NAV*/
 .menu ul {
 display: flex;
 justify-content: space-between;
@@ -33,6 +33,12 @@ flex-wrap: wrap;
 
 .menu ul li {
     margin: 0 4px;
+    display: inline-block;
+}
+
+nav ul li {
+    margin: 0 4px;
+    display: inline-block;
 }
 
 nav a {
@@ -51,12 +57,37 @@ nav a {
 
   nav a.current {
     color: #038c26;
-
   }
-#don {
-  
-}
+/*END ATTEMPT 1 NAV*/
+/*ATTEMPT 2 NAV*/
+  .menu1 a {
+    color: #FFFCF9;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    }
 
+    .menu1 a:hover,
+    .menu1 a:focus {
+      color: #04b531;
+    }
+
+    .menu1 a.current {
+      color: #038c26;
+    }
+
+.menu2
+  {color: white;
+    background-color: #6E0E00;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: #6E0E00;
+    border-radius: 1px;
+    padding:3px 3px;
+}
+/*END ATTEMPT 2 NAV*/
 .chooselang {
   display: flex;
   font-size: 1.2em;
@@ -261,7 +292,7 @@ flex-wrap: nowrap;
   padding-bottom: 0;
   padding-top: 20%;
   padding-left: 5%;
-  background: url(images/suisse.jpg) no-repeat;
+  background: url(images/association_friendshipMK_banner.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 3%;
   display: flex;
@@ -277,13 +308,12 @@ flex-wrap: nowrap;
 }
 
 .contentcontainer {
-  display:flex;
-  width: 100%;
+  display: flex;
 }
 
 /*left column association page*/
+
 .tablecontainer {
-padding-top: 50px;
   flex-grow: 0;
    flex-shrink: 0;
    flex-basis: 25%;
@@ -319,10 +349,7 @@ padding-top: 50px;
   border-collapse: collapse;
   border-top: 1px solid black;
   margin-right: 30px;
-}
-
-.externallinkicon {
-
+  margin-top: 70px;
 }
 
 .nouscontacter a {
@@ -395,6 +422,17 @@ display:inline;
   color: white;
   font-size: 3em;
 }
+
+.extlinkicon {
+  height: 12px;
+  margin-left: 3px;
+}
+
+.table-maisonshalom {
+  border-collapse: collapse;
+  border-top: 1px solid black;
+  margin-right: 30px;}
+
 
 /*END OF MAISON SHALOM PAGE*/
 
