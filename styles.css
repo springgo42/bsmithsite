@@ -4,6 +4,21 @@ body {
   font-size: 12px;
   line-height: 1.3;
 }
+
+.intextlink a{
+  text-decoration: none;
+  color: #708090;
+}
+
+.intextlink a.current
+ {color:#6E0E00;
+  }
+
+.intextlink a:focus,
+.intextlink a:hover {
+  color:#6E0E00;
+}
+
 /*End of body*/
 
 /*Header*/
@@ -85,7 +100,6 @@ nav a {
     border: 2px solid;
     border-color: #6E0E00;
     border-radius: 1px;
-    padding:3px 3px;
 }
 /*END ATTEMPT 2 NAV*/
 .chooselang {
@@ -105,7 +119,7 @@ flex-wrap: nowrap;
     margin: 0 4px;
 }
 
- .chooselang a {
+.chooselang a {
    color: #6E0E00;
    text-decoration: none;
    display: inline-block;
@@ -118,7 +132,7 @@ flex-wrap: nowrap;
    font-weight: bold;
  }
 
-  .currentlanguage {
+.currentlanguage {
     color: #6E0E00;
     font-weight: bold;
   }
@@ -131,6 +145,7 @@ color: #FFFCF9;
 margin-bottom: 1%;
 padding: 1%;
 text-align: center;
+margin-top: 20px;
 }
 /*end of footer*/
 
@@ -195,7 +210,7 @@ padding-top: 20%;
   padding-right: 5%;
 }
 
-main a {
+.stronglink {
   color: white;
   background-color: #6E0E00;
   text-decoration: none;
@@ -283,6 +298,8 @@ flex-wrap: nowrap;
   color: white;
   font-size: 18px;
 }
+
+
 /*end of banner subpage*/
 /*END OF SUBPAGE*/
 
@@ -332,7 +349,7 @@ flex-wrap: nowrap;
 
 .tablecontainer a {
   text-decoration: none;
-  color: black;
+  color: #708090;
 }
 
 .tablecontainer a.current
@@ -342,7 +359,6 @@ flex-wrap: nowrap;
 .tablecontainer a:focus,
 .tablecontainer a:hover {
   color:#6E0E00;
-  font-weight:bolder;
 }
 
 .table-association {
@@ -399,7 +415,7 @@ th, td {
 /*end right column association page*/
 
 /*main association page*/
-main {
+.main_associationpage {
 display:inline;
 }
 
@@ -411,7 +427,7 @@ display:inline;
   margin-top: 0;
   padding-bottom: 0;
   padding-top: 20%;
-  background: url(images/maisonshalom_culturalactivities.jpg) no-repeat;
+  background: url(images/maisonshalom_banner.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 3%;
   display: flex;
@@ -431,7 +447,8 @@ display:inline;
 .table-maisonshalom {
   border-collapse: collapse;
   border-top: 1px solid black;
-  margin-right: 30px;}
+  margin-right: 30px;
+}
 
 
 /*END OF MAISON SHALOM PAGE*/
@@ -442,7 +459,7 @@ display:inline;
   padding-bottom: 0;
   padding-top: 20%;
   padding-left: 5%;
-  background: url(images/suisse.jpg) no-repeat;
+  background: url(images/association_oasisofpeace.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 3%;
   display: flex;
@@ -456,8 +473,32 @@ display:inline;
   font-size: 3em;
   padding-bottom: 2em;
 }
+.main_contactpage {
+display:inline;
+}
 
+.table-contact {
+  border-collapse: collapse;
+  border-top: 1px solid black;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+.contactitemscontainer {
+  display: flex;
+}
 
+.addresscontainer {
+  width: 50%;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: auto;
+  background-color: #F8F8F8;
+}
+
+.addressimg {
+  width: 50%;
+  margin-bottom: auto;
+}
 /*END OF CONTACT PAGE*/
 
 
@@ -467,7 +508,7 @@ display:inline;
   padding-bottom: 0;
   padding-top: 20%;
   padding-left: 5%;
-  background: url(images/suisse.jpg) no-repeat;
+  background: url(images/don_enfants.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 3%;
   display: flex;
@@ -482,6 +523,28 @@ display:inline;
   padding-bottom: 2em;
 }
 
+.dontext {
+  padding-left: 40px;
+}
 
+.doncontainer {
+  display: flex;
+}
+
+.donbox {
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: auto;
+  background-color: #F8F8F8;
+}
+
+.donboxsans {
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+.donitemscontainer {
+
+}
 
 /*END OF DONATION PAGE*/
