@@ -202,12 +202,14 @@ padding-top: 20%;
 .main2 {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .maintextbox {
   width:50%;
-  padding-left: 5%;
-  padding-right: 5%;
+
+  padding-right: 10%;
 }
 
 .stronglink {
