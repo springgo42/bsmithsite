@@ -26,7 +26,8 @@ header {
 background-color: #FFD166;
 color: #FFFCF9;
 margin-bottom: 0;
-padding: 1%;
+padding: 1% 1% 0;
+white-space: nowrap;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -44,6 +45,7 @@ flex-wrap: wrap;
   list-style-type: none;
   margin-right: 3px;
   padding: 3px 3px;
+  line-height: 2;
 }
 
 nav ul li {
@@ -341,9 +343,8 @@ flex-wrap: nowrap;
 .tablecontainer {
   flex-grow: 0;
    flex-shrink: 0;
-   flex-basis: 25%;
-   min-width: 200px;
-
+   flex-basis: 30%;
+   min-width: 250px;
 }
 
 .tablecontainer h3 {
@@ -354,7 +355,12 @@ flex-wrap: nowrap;
   border-radius: 1px;
   padding:3px 3px;
   width: 120px;
-  margin-right: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.tablecontainer p {
+  margin-left: 20px;
 }
 
 .tablecontainer a {
@@ -376,6 +382,11 @@ flex-wrap: nowrap;
   border-top: 1px solid black;
   margin-right: 30px;
   margin-top: 70px;
+  margin-left: 20px;
+}
+
+.nouscontacter p {
+  padding-left: 20px;
 }
 
 .nouscontacter a {
@@ -461,6 +472,7 @@ padding-left: 20px;
   border-collapse: collapse;
   border-top: 1px solid black;
   margin-right: 30px;
+  margin-left: 20px;
 }
 
 
