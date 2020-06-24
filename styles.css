@@ -508,6 +508,7 @@ width: 100%;
   border-top: 1px solid black;
   margin-right: 30px;
   margin-top: 20px;
+  margin-left: 20px;
 }
 .contactitemscontainer {
   display: flex;
