@@ -161,7 +161,7 @@ margin-top: 20px;
 .banner {
   margin-top: 0;
   padding-bottom: 0;
-padding-top: 20%;
+  padding-top: 20%;
   background: url(images/index_vocationaltraining.jpg) no-repeat;
   background-size: cover;
   height: 300px;
@@ -182,7 +182,7 @@ padding-top: 20%;
   background-color: white;
   color:#6E0E00;
   text-decoration: none;
-  border: 2px solid;
+  border: 0;
   border-radius: 1px;
   padding:2px 2px;
   margin: 0 auto;
@@ -194,7 +194,7 @@ padding-top: 20%;
 
 .box a:focus,
 .box a:hover {
-  color:#FFD166;
+  color:#ffc02e;
 }
 
 .boxstrong {
@@ -215,7 +215,6 @@ padding-top: 20%;
 
 .maintextbox {
   width:50%;
-
   padding-right: 10%;
 }
 
@@ -393,7 +392,6 @@ flex-wrap: nowrap;
   font-weight:bolder;
 }
 
-
 .normaltext a {
   text-decoration: none;
   color: #6E0E00;
@@ -403,6 +401,7 @@ flex-wrap: nowrap;
 .normaltext a:hover {
   font-weight:bolder;
 }
+
 th, td {
   border-bottom: 1px solid black;
   padding: 2px 12px;
@@ -421,14 +420,13 @@ th, td {
   background-color: #F8F8F8;
 }
 
-/*end right column association page*/
-
-/*main association page*/
 .main_associationpage {
-display:inline;
-}
 
-/*end of main association page*/
+}
+.firsttextcontainer {
+  width: 100%;
+}
+/*end of right column association page*/
 /*END OF ASSOCIATON PAGE*/
 
 /*MAISON SHALOM PAGE*/
@@ -501,6 +499,7 @@ width: 100%;
 .addresscontainer {
   width: 50%;
   margin-right: 20px;
+  padding-left: 20px;
   margin-bottom: auto;
   background-color: #F8F8F8;
 }
