@@ -73,6 +73,15 @@ nav a {
   nav a.current {
     color: #038c26;
   }
+
+  .faireundon {
+    color: white;
+      background-color: #ffc02e;
+      text-decoration: none;
+      border: 2px solid;
+      border-color: #ffc02e;
+      border-radius: 1px;
+  }
 /*END ATTEMPT 1 NAV*/
 /*ATTEMPT 2 NAV*/
   .menu1 a {
