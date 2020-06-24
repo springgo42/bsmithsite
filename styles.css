@@ -46,14 +46,8 @@ flex-wrap: wrap;
   padding: 3px 3px;
 }
 
-.menu ul li {
-    margin: 0 4px;
-    display: inline-block;
-}
-
 nav ul li {
-    margin: 0 4px;
-    display: inline-block;
+    margin: 0 7px;
 }
 
 nav a {
@@ -61,7 +55,6 @@ nav a {
   text-decoration: none;
   font-weight: 500;
   font-size: 1.2em;
-  display: inline-block;
   text-align: center;
   }
 
@@ -71,7 +64,12 @@ nav a {
   }
 
   nav a.current {
-    color: #038c26;
+      text-decoration: none;
+      border: 1px solid;
+      border-color: white;
+      border-radius: 1px;
+      padding-right: 3px;
+      padding-left: 3px;
   }
 
   .faireundon {
