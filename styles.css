@@ -40,7 +40,6 @@ height: auto;
 /*ATTEMPT 1 NAV*/
 .menu ul {
 display: flex;
-justify-content: space-between;
 flex-wrap: wrap;
   list-style-type: none;
   margin-right: 3px;
@@ -164,7 +163,7 @@ margin-top: 20px;
   margin-top: 0;
   padding-bottom: 0;
   padding-top: 20%;
-  background: url(images/index_vocationaltraining.jpg) no-repeat;
+  background: url(images/index_vocationaltraining1.jpg) no-repeat;
   background-size: cover;
   margin-bottom: 3%;
   display: flex;
@@ -174,9 +173,10 @@ margin-top: 20px;
 
 .box {
   color: white;
+  background-color: rgb(110, 14, 0);
   background-color: rgba(110, 14, 0, 70%);
   max-width: 40%;
-  min-width: 200px;
+  min-width: 140px;
   padding: 6px;
 }
 .box a {
@@ -214,8 +214,14 @@ margin-top: 20px;
   padding-right: 5%;
 }
 
+.main2 img{
+  flex: 0 0 30%;
+  max-width: 300px;
+}
+
 .maintextbox {
-  width:50%;
+  min-width: 200px;
+  flex: 1 1 30%;
   padding-right: 10%;
 }
 
@@ -227,6 +233,8 @@ margin-top: 20px;
   border-radius: 1px;
   padding:3px 3px;
 }
+
+
 /*end of main homepage*/
 
 /*aside*/
