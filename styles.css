@@ -416,16 +416,6 @@ flex-wrap: nowrap;
   font-weight:bolder;
 }
 
-.normaltext a {
-  text-decoration: none;
-  color: #6E0E00;
-}
-
-.normaltext a:focus,
-.normaltext a:hover {
-  font-weight:bolder;
-}
-
 th, td {
   border-bottom: 1px solid black;
   padding: 2px 12px;
@@ -518,7 +508,6 @@ width: 100%;
   border-collapse: collapse;
   border-top: 1px solid black;
   margin-right: 30px;
-  margin-top: 20px;
   margin-left: 20px;
 }
 .contactitemscontainer {
@@ -530,7 +519,7 @@ width: 100%;
 .addresscontainer {
   min-width: 200px;
   flex: 1 0 30%;
-  margin-right: 20px;
+
   padding-left: 20px;
   margin-bottom: auto;
   background-color: #F8F8F8;
@@ -540,6 +529,7 @@ width: 100%;
   min-width: 150px;
   flex: 1 0 30%;
   margin-bottom: auto;
+  margin-left: 20px;
 }
 
 .addressimg img {
