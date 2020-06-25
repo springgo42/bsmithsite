@@ -247,33 +247,33 @@ flex-wrap: nowrap;
 }
 
 #container-img-1 {
-  background-image: url(images/index_secondaire.jpg);
+  background-image: url(images/index_secondaire_280.jpg);
   background-size: cover;
-  width: 200px;
+  max-width: 200px;
   }
 
 #container-img-2 {
-    background-image: url(images/index_couture.jpg);
+    background-image: url(images/index_couture_280.jpg);
     background-size: cover;
-    width: 200px;
+    max-width: 200px;
     }
 
 #container-img-3 {
-    background-image: url(images/index_machineacoudre.jpg);
+    background-image: url(images/index_machineacoudre_280.jpg);
     background-size: cover;
-    width: 200px;
+    max-width: 200px;
     }
 
 #container-img-4 {
-    background-image: url(images/index_mahama.jpg);
+    background-image: url(images/index_mahama_280.jpg);
     background-size: cover;
-    width: 200px;
+    max-width: 200px;
     }
 
 #container-img-5 {
-    background-image: url(images/index_drums.jpg);
+    background-image: url(images/index_drums_280.jpg);
     background-size: cover;
-    width: 200px;
+    max-width: 200px;
         }
 
 .container-caption {
