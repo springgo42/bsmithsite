@@ -426,7 +426,7 @@ th, td {
 .maincontainer {
 flex: 1 0 70%;
 min-width: 200px;
-padding-left: 20px;
+
 }
 .firsttextcontainer {
   width: 100%;
@@ -519,17 +519,17 @@ width: 100%;
 .addresscontainer {
   min-width: 200px;
   flex: 1 0 30%;
-
   padding-left: 20px;
   margin-bottom: auto;
   background-color: #F8F8F8;
+  margin-left: 1%;
 }
 
 .addressimg {
-  min-width: 150px;
+  min-width: 200px;
   flex: 1 0 30%;
   margin-bottom: auto;
-  margin-left: 20px;
+  margin-left: 1%;
 }
 
 .addressimg img {
