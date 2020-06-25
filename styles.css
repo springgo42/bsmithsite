@@ -205,15 +205,20 @@ margin-top: 20px;
 
   }
 
-.stronglink {
+.maintextbox a {
   color: white;
   background-color: #6E0E00;
   text-decoration: none;
   border: 2px solid;
+  border-color: #6E0E00;
   border-radius: 1px;
   padding:3px 3px;
 }
 
+.maintextbox a:focus,
+.maintextbox a:hover {
+  color: #FFD166;
+}
 
 /*end of main homepage*/
 
